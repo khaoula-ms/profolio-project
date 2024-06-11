@@ -10,7 +10,9 @@ body{
     
 }
 .head{
-    background-image: url("photos/20230403_143453.jpg");
+    background-image: url(photos/20230403_143453.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--secondary-color);
     text-align: center;
     padding: 50px 20px;
