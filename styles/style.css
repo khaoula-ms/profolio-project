@@ -9,8 +9,11 @@ body{
     font-family: var(--primary-font);
     
 }
+.navbar-style{
+    color: var(--secondary-color);
+}
 .head{
-    background-image: url(photos/20230403_143453.png);
+    background-image: url(/photos/20230403_174514.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--secondary-color);
@@ -38,4 +41,8 @@ padding: 10px 30px;
 font-size: 14px;
 margin-top: 20px;
 border: 1px solid var(--secondary-color);
+}
+.logo{
+    width: 30%;
+    height: 24;
 }
