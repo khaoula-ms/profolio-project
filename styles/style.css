@@ -1,6 +1,7 @@
 :root{
     --primary-color: #1b1b1b;
     --secondary-color: #ffff;
+    --tertiary-color: #f65282;
     --primary-font: "Roboto", sans-serif;
     --button-color: #272142;
 }
@@ -14,8 +15,12 @@ body{
 }
 h1{
     text-transform: uppercase;
-    color: #ffff;
+    color: var(--secondary-color);
     text-align: center;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 72px;
+    margin: 20px auto;
 }
 .head{
     background-image: url(/photos/20230403_174514.png);
@@ -28,8 +33,8 @@ h1{
 .head-gallery{
     color: var(--secondary-color);
     text-align: center;
-    padding: 50px 20px;
-    background-color: #1b1b1b;
+   
+    background-color: #282323;
 }
 .head h3{
     font-size: 24px;
@@ -38,8 +43,12 @@ h1{
 }
 .head h1{
     font-size: 72px;
+    font-family: var(--primary-font);
+   
+    text-align: center;
 }
 .head p{
+    font-family: var(--primary-font);
     font-size: 18px;
     font-weight: 400;
     line-height: 1;
@@ -73,8 +82,11 @@ border: 1px solid var(--secondary-color);
 }
 footer{
     padding: 20px;
-    border-radius: 5px;
-    color: #ffff;
+    border-radius: 10px;
+    color: var(--secondary-color);
+    background-color:#282323;
+    height: 100px;
+    width: 1440px;
 }
 .logo-footer{
     width: 100px;
@@ -82,9 +94,45 @@ footer{
     padding: 5px;
     margin-right: 50px;
 }
-footer span{
-margin: auto 30px;
+footer span.coder{
+
+font-family: var(--primary-font);
+font-weight: 400;
+margin-left: auto;
+margin-right: 0;
+size: 16px;
+line-height: 19px;
+
 }
 footer span i{
     margin: auto 10px;
+}
+.contactMeInfo{
+text-align: center;
+color: var(--secondary-color);
+line-height: 3;
+margin: 20px auto;
+
+}
+.contact-info{
+    color: var(--tertiary-color);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+.titre-about{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--tertiary-color);
+}
+.biography{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--secondary-color);
 }
