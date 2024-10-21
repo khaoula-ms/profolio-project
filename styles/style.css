@@ -65,14 +65,11 @@ border: 1px solid var(--secondary-color);
 .logo{
     width: 30%;
     height: 24;
-    border-radius: 50px;
+    border-radius: 5px;
+    padding: 0;
 }
-.photo-grid{
-    display: grid;
-    grid-template-columns:repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    grid-gap: 5px;
-    margin: 20px 10px;
+.row{
+    margin: 20px;
 }
 .picture{
     object-fit: cover;
@@ -128,6 +125,7 @@ margin: 20px auto;
     font-size: 18px;
     line-height: 21px;
     color: var(--tertiary-color);
+    margin: 20px;
 }
 .biography{
     font-family: var(--primary-font);
@@ -135,6 +133,7 @@ margin: 20px auto;
     font-size: 18px;
     line-height: 30px;
     color: var(--secondary-color);
+    margin: 20px;
 }
 .icon-about{
     size: 16px;
@@ -142,6 +141,7 @@ margin: 20px auto;
     margin: 30px 0;
     margin-right: 470px;
   background-color: #ffff;
+ 
 }
 .nana{
     size: 64px;
