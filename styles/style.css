@@ -69,7 +69,7 @@ border: 1px solid var(--secondary-color);
     padding: 0;
 }
 .row{
-    margin: 20px;
+    margin:50px 20px;
 }
 .picture{
     object-fit: cover;
